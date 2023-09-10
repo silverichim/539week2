@@ -19,14 +19,14 @@ header {
 
 .nav-list li {
     display: inline;
-    margin: 0 3em; /* 设置间距为3em */
+    margin: 0 3em;
 }
 
 .nav-list li a {
     text-decoration: none;
-    color: blue; /* 设置字体颜色为蓝色 */
-    font-weight: bold;
-    font-size: 10.8px; /* 将字体大小减少40% */
+    color: dark blue; 
+    font-weight: regular;
+    font-size: 8 px;
 }
 
 .nav-list li a:hover {
