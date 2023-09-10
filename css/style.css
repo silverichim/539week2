@@ -7,6 +7,7 @@ body {
 header {
     background-color: #f8f9fa;
     padding: 20px;
+    text-align: conter;
 }
 
 .nav-list {
@@ -14,6 +15,7 @@ header {
     margin: 0;
     padding: 0;
     text-align: center;
+    display:inline-block
 }
 
 .nav-list li {
@@ -30,6 +32,9 @@ header {
 
 .nav-list li a:hover {
     color: #007BFF;
+}
+.footer{
+    text-align: center;
 }
 
 .page-title {
