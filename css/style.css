@@ -7,7 +7,7 @@ body {
 header {
     background-color: #f8f9fa;
     padding: 20px;
-    text-align: conter;
+    text-align: center; 
 }
 
 .nav-list {
@@ -15,7 +15,7 @@ header {
     margin: 0;
     padding: 0;
     text-align: center;
-    display:inline-block
+    display:inline-block;
 }
 
 .nav-list li {
@@ -33,6 +33,7 @@ header {
 .nav-list li a:hover {
     color: #007BFF;
 }
+
 .footer{
     text-align: center;
 }
@@ -45,11 +46,12 @@ header {
     margin-top: 0em;
 }
 
-.page-content {
-    font-size: 16px;
-    color: darkred;
-    text-align: center;
-    margin-top: 1em;
+.page-content,
+.owner-info,
+.friend-section,
+.hobbies-section,
+.daily-life-section {
+    margin: 20px;
 }
 
 .header-title {
@@ -78,4 +80,12 @@ header {
 .image-margin {
     margin-top: 1em; 
     margin-bottom: 1em;
+}
+
+.image-width-6 {
+    width: 6%;
+}
+
+.image-width-55 {
+    width: 5.5%;
 }
