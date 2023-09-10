@@ -1,5 +1,4 @@
 body {
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1) 0%, rgba(255, 255, 0, 0.1) 33.33%, rgba(0, 0, 255, 0.1) 66.67%, rgba(75, 0, 130, 0.1) 100%);
     margin: 0;
     font-family: Helvetica, Futura;
 }
@@ -15,24 +14,25 @@ header {
     margin: 0;
     padding: 0;
     text-align: center;
-    display:inline-block
+    display: inline-block;
 }
 
 .nav-list li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 3em; /* 设置间距为3em */
 }
 
 .nav-list li a {
     text-decoration: none;
-    color: #000;
+    color: blue; /* 设置字体颜色为蓝色 */
     font-weight: bold;
-    font-size: 18px;
+    font-size: 10.8px; /* 将字体大小减少40% */
 }
 
 .nav-list li a:hover {
     color: #007BFF;
 }
+
 .footer{
     text-align: center;
 }
@@ -78,4 +78,9 @@ header {
 .image-margin {
     margin-top: 1em; 
     margin-bottom: 1em;
-} 
+}
+
+.introduction {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 255, 0, 0.1), rgba(0, 0, 255, 0.1), rgba(75, 0, 130, 0.1));
+    padding: 20px;
+}
